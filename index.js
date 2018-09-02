@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 import bodyparser from 'body-parser';
 
 // Change the user name and password
-const uri = `mongodb+srv://admin:amresh@cluster0-zukw6.mongodb.net/test?retryWrites=true`;
+const uri = `mongodb+srv://admin:password@cluster0-zukw6.mongodb.net/test?retryWrites=true`;
 var MongoClient = require('mongodb').MongoClient;
 // Connect to the db
 MongoClient.connect(uri);
